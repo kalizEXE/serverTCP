@@ -9,7 +9,7 @@ BUFFSIZE = 1024
 ENCODING = 'utf-8'
 
 class ClientTcp(object):
-	"""docstring for ClientTcp"""
+	
 	def __init__(self):
 		super(ClientTcp, self).__init__()
 
