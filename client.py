@@ -49,8 +49,8 @@ class ClientTcp(object):
 		for i in range(100):
 			self.__send(('TEST '+str(count)).encode(ENCODING))
 			count +=1
-			time.sleep(0.1)
+			time.sleep(.01)
 
 if __name__ == '__main__':
 	client = ClientTcp()
-	client.send()
+	client.test()
